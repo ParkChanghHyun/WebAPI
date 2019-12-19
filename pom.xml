@@ -25,7 +25,7 @@
     <datasource.url>jdbc:sqlserver://serverName;databaseName=databaseName</datasource.url>
     <datasource.username>user</datasource.username>
     <datasource.password>password</datasource.password>
-    <!--<datasource.validationQuery>SELECT 1</datasource.validationQuery>-->
+    <!--<datasource.validationQuery>SELECT 1 From dual </datasource.validationQuery>-->
     <datasource.dialect>sql server</datasource.dialect>
     <datasource.ohdsi.schema>dbo</datasource.ohdsi.schema>
     <datasource.dialect.source>sql server</datasource.dialect.source>
