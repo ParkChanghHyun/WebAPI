@@ -69,7 +69,7 @@ public class AuthDataSource {
             config.setUsername(username);
             config.setPassword(password);
             config.setSchema(schema);
-            config.setConnectionTestQuery(testQuery);
+            //config.setConnectionTestQuery(testQuery);
             config.setConnectionTimeout(connectionTimeout);
             config.setMaximumPoolSize(maxPoolSize);
             config.setMinimumIdle(minPoolIdle);
